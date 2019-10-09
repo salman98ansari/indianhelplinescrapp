@@ -9,7 +9,7 @@ Created on Wed Oct  9 18:00:58 2019
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
-url= requests.get('https://indianhelpline.com/GUWAHATI/').text
+url= requests.get('https://indianhelpline.com/BIHAR-HELPLINE-NUMBERS/').text
 
 soup = BeautifulSoup(url, 'lxml')
 table= soup.findAll('tr')
